@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="date"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qrdk/boot/u-boot" revision="56f1ade45dcd9d86c03a5eb9c57b3e7bd3269546" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qrdk/boot/uboot-1.0" revision="abddd9d7900b6e5457e140677382821223c6c809" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge" revision="00458a113d0dcad7cd17b2bb461064517e00a6ac" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qrdk/opensource/hyfi/qca-hyfi-qdisc" revision="ba3c807d40370db712aa67740946f1c61144e134" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qrdk/kernel" revision="af5171fbf75385b10937f98650a064efc73da31d" upstream="coconut_20140924"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv" revision="7eb5c9acd4c25c2a6de3fcdb49903e6bf21334ad" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qrdk/opensource/qca-nss-gmac" revision="6d204b955d196963ddf06062623097b442b59db8" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/lklm/qca-edma" path="qrdk/opensource/qca-edma" revision="55e87fb4c0bbc79d725528970940234143a5594d" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm" revision="247b2e74d1b5db28dcb350ba33099cb6f6afdb04" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm" revision="8bfc5b63fb5b98114e52470a864c04b675661010" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qrdk/opensource/qca-rfs" revision="40a2897be95283bb4b5651cbe5d0d6a70a7faefb" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk" revision="2a1e6c1ed771cd95aa2d42736c9e64921e512fde" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/shortcut-fe" revision="25e41dabed2cda9a95dc95e3383cf2a617f88de7" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell" revision="3a410eb295fb6a9282c5c9215abb9b3d08fb459d" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq" revision="f90c4f989ffbdd5ca15f4acc9c217c8d139f7ef6" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking" revision="ced55d65f5022d9591461c328dd864b5a8f0f6fe" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss" revision="532fb0e580ae432bbbe64fd6f21f556809a7d7df" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages" revision="06749864a2f72391df0ce06310c4b8599d15ba06" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk" revision="68dfca5ee2e132c14597dd36bfa172ea38ae680a" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi" revision="0678084c0595a64bb88e206f5ced0a799e403d3f" upstream="master"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="2db2ab7b3559df2b442210f44a3689aea4062034" upstream="banana_w14"/>
+  <project name="quic/qsdk/oss/wlan-host-cmn" path="qrdk/wifi/qca-wifi/cmn_dev" revision="703c60153c3bc0eb56e58063704dbb4085de4393" upstream="wlan-host-cmn"/>
+</manifest>
