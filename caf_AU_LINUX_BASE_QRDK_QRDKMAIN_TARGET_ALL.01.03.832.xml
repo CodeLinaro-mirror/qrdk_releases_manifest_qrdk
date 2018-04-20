@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="qrdkmain"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qrdk/boot/u-boot" revision="32a5889dd9afbb7a1adb09e0e6893545c70b093f" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qrdk/boot/uboot-1.0" revision="abddd9d7900b6e5457e140677382821223c6c809" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge" revision="375dd0188802f229ed7d357d4453cde0d31d2b2b" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qrdk/opensource/hyfi/qca-hyfi-qdisc" revision="ba3c807d40370db712aa67740946f1c61144e134" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qrdk/kernel" revision="11bcccd93330aefac4639180ef280d3a5f5d25e9" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv" revision="d1074eda173a59949a8c4bb16a38a525b906f9fd" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qrdk/opensource/qca-nss-gmac" revision="b3c3088892a38fe7cc90f1465515d127819fa410" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/qca-edma" path="qrdk/opensource/qca-edma" revision="3af90ae5ecb936146f9021c5aa170b5c1fa81365" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm" revision="f6295ea7272b52f91084274cdd615d8e45d7de9e" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm" revision="e305607609109a2e1fa692083743eaf7c7ff5904" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qrdk/opensource/qca-rfs" revision="6677d413344d39877db65f838b377d9a1b8c8bd0" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk" revision="eb83fde4589a194d7c5eb9a1594c4f0670a26e6b" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/shortcut-fe" revision="d1e9edbe8c24cffd3ef0d50e23adecca06e3ec45" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell" revision="6366449689754d35b94863b8be1f384607c93733" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq" revision="b53b352f7d1db75445b3f8017cf6ec88742d967e" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking" revision="ced55d65f5022d9591461c328dd864b5a8f0f6fe" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss" revision="5487f166b425598c7598844c16488141ba18dd67" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages" revision="a6da8c6b8ba25022009b65b79a1a0b7ef25e0c19" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk" revision="e159558f9565a29b861cd3edfcd0aa7b8bcc73ae" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi" revision="eecb499dac3e88e5496c149bb77fb93128675f17" upstream="master"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="2db2ab7b3559df2b442210f44a3689aea4062034" upstream="NHSS.QSDK.6.0.r4"/>
+  <project name="quic/qsdk/oss/wlan-host-cmn" path="qrdk/wifi/qca-wifi/cmn_dev" revision="a0f26ce0e1b54dae97f77ec842a39454da372b70" upstream="NHSS.QSDK.6.0.r4"/>
+</manifest>
