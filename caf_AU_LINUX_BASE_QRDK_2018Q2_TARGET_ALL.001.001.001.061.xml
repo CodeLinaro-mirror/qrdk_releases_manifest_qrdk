@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="date"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qrdk/boot/u-boot" revision="5a4f3d9f51d583df89df7bb9fe66389de2ea7dae" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/u-boot-2016" path="qrdk/boot/u-boot-2016" revision="47fdb7070f237fa9159fabf4414533ce04a36fd7" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qrdk/boot/uboot-1.0" revision="77d462c1e04c39cca2a37af5dd0b79fc7ffa901e" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge" revision="993acf8825218ad18167b75db37dc09fed7d6823" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qrdk/opensource/hyfi/qca-hyfi-qdisc" revision="ba3c807d40370db712aa67740946f1c61144e134" upstream="release/endive_cc"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qrdk/kernel" revision="c8cad1d8d18eb586030287d798b2948254b46037" upstream="eggplant-rdk"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qrdk/opensource/qca-nss-cfi" revision="58744be6dad061ab167a55349ac2ac76aa837202" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qrdk/opensource/qca-nss-clients" revision="0814ffab7f96ae5df4ea0ac5c6941dbb80240a9a" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qrdk/opensource/qca-nss-crypto" revision="62d78797a8b6a862779703a627dbaeec532c4355" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-dp" path="qrdk/opensource/qca-nss-dp" revision="dcaef6cfe1e0b94e9012a08026545e683c10b5c1" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv" revision="75e12a95f4593b713bfc0d14228e5250d7be0b27" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qrdk/opensource/qca-nss-gmac" revision="9b74deef2816d91e58926e6fab7a6ff931eb3b22" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-edma" path="qrdk/opensource/qca-edma" revision="16e165226f490f0f405e8b90043b65e497581d39" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm" revision="f1273f5f468bcdae2c67d93d1fd6f0c028378d3e" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm" revision="331fbadb28be37f1ad9152867c7a8620a108fb73" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qrdk/opensource/qca-rfs" revision="709b93474e60aaf4d884d3d16c1435d8b5f0f90b" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk" revision="9fa587079784cd8a72fa9673f7a327b6ef08c08b" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/shortcut-fe" revision="c7dd8173b178affc9d8da22f51610243be994e1c" upstream="nss"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell" revision="889f8bd5b847580bc485181f70583c0ad9fac883" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq" revision="512421b83374e43cb38a5fbe59788c89b2ff61ab" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking" revision="44a55397f3bd829172d6637a027c98dfa97302c2" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss" revision="e6ce7490a105d985f8420f71fe5ad12797971789" upstream="nss"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages" revision="58453de96fc25eb25ce8e363b8b388377eddecd9" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk" revision="1dc56a3d5007b311e613bb15f6df0e36eba0136d" upstream="master"/>
+  <project name="quic/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi" revision="619ec0b749cd1ca906578d865a276cd10013d1b9" upstream="master"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="22c47fa553c3e975d714520b48769f7a5e8c73b6" upstream="banana_w14"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qrdk/wifi/qca-wifi/cmn_dev/fw_hdr" revision="c85ebd5731ff4f03b594c80c9fd3270d33fec796" upstream="wlan-api.lnx.1.0"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qrdk/wifi/qca-wifi/cmn_dev" revision="41696b3a10eeb75c31b0822e44d7ec09e2be651c" upstream="wlan-cmn.driver.lnx.2.0"/>
+  <project name="quic/qsdk/wifi/qca-wifi-oss" path="qrdk/wifi/qca-wifi/component_dev" revision="10060c8c59074aa2b6f3f5919580177940c9bc9a" upstream="win_wlan_host.1.0"/>
+</manifest>
