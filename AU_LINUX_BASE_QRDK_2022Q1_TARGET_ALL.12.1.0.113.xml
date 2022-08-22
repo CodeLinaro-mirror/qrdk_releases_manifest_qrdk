@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="fig"/>
+  <project name="clo/qsdk/oss/boot/u-boot-2016" path="qrdk/boot/u-boot-2016" revision="c51b4366979cb4cf698560fe4c78a7bb33b1dcf4" upstream="win.coretech.1.0"/>
+  <project dest-branch="refs/heads/win.son_easymesh.1.0" name="clo/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge" revision="92aab02c632d5791acedf90c709187af5a4dde70" upstream="win.son_easymesh.1.0"/>
+  <project dest-branch="refs/heads/win.son_easymesh.1.0" name="clo/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qrdk/opensource/hyfi/qca-hyfi-qdisc" revision="846e528e85b46da233a03fc025a24783e2c5a18b" upstream="win.son_easymesh.1.0"/>
+  <project name="clo/qsdk/oss/kernel/linux-ipq-5.4" path="qrdk/kernel" revision="8579a4fef780975c489bad5aa972521cfc826739" upstream="win.linuxopenwrt.2.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-cfi" path="qrdk/opensource/qca-nss-cfi" revision="a0239b330846770793aefc3debf4be7edad6ffcd" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-clients" path="qrdk/opensource/qca-nss-clients" revision="2396944e41307a90e9159107fd225e44980a5b2f" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-crypto" path="qrdk/opensource/qca-nss-crypto" revision="2271a3a66f7e8284d42a9e787ddec6f24a1d2e15" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-dp" path="qrdk/opensource/qca-nss-dp" revision="9846c129fda8758e6a8970c5437cb84637b42a19" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv" revision="3a7cb96838e80d0e84a8d09059a13280fcdb1e39" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-gmac" path="qrdk/opensource/qca-nss-gmac" revision="171767947467662f2407d0cfff26dfb136c3fb4a" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-macsec" path="qrdk/opensource/qca-nss-macsec" revision="c214cf14cc8e205678c064c23c76360c3cc5c5f1" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-ppe" path="qrdk/opensource/qca-nss-ppe" revision="9671424979f22add7a06f9e76eab4aee460a86fe" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-edma" path="qrdk/opensource/qca-edma" revision="7e47c81b5b1678e921b7f52ddde96ec08ef5edad" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm" revision="dd8a43859e3984e8552125b07b1cbd0d76e9e4c4" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm" revision="bc390e91d7ef9a2e62866a37acd593123cf0387f" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-psdk" path="qrdk/opensource/qca-psdk" revision="402973acc8a17d9b685ed3c3490b7d6289f4798f" upstream="master"/>
+  <project name="clo/qsdk/oss/lklm/qca-rfs" path="qrdk/opensource/qca-rfs" revision="75197c386f477c7b3a6f02489d9903a9409fd5cc" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk" revision="99582d437924a7d784a5a278b3f631fa9d2f1107" upstream="SSDK_3.0"/>
+  <project name="clo/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/qca-nss-sfe" revision="1cabbf191363e07cc41e0cc83caf973dc7c7b09f" upstream="nss"/>
+  <project name="clo/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell" revision="c3ec6282e74dcc94668a4f792a98d2c8f4790469" upstream="SSDK_3.0"/>
+  <project name="clo/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq" revision="aa6e440b4a095be8f7a43d687ba164d97acae886" upstream="fig"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking" revision="fe64fc4a6cc073822318a2c2a8eb4cd909c019d7" upstream="fig"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss" revision="99692359ab1e97f67706e1c9318c61a52bb5cc19" upstream="nss"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages" revision="8ba4ce2aa70a3526c16202d243f8c7433c58781d" upstream="fig"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk" revision="4144d01169898f1f204e6fbda88efc6916a5c3db" upstream="fig"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi" revision="6055277382c9990d5c3d65c71a10ebec14dd117f" upstream="fig"/>
+  <project name="clo/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="master"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0" name="clo/qsdk/oss/wifi/qca-cnss" path="qrdk/opensource/qca-cnss" revision="0646cdedfde0ade95b75e0216d400912ade34af3" upstream="win_wlan_host.1.0"/>
+  <project dest-branch="refs/heads/wlan-api.lnx.1.0" name="clo/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qrdk/wifi/qca-wifi/cmn_dev/fw_hdr" revision="1c5ee2772cc69aeb7e4262429915f36b4ca60bf5" upstream="wlan-api.lnx.1.0"/>
+  <project dest-branch="refs/heads/wlan-cmn.driver.lnx.2.0" name="clo/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qrdk/wifi/qca-wifi/cmn_dev" revision="b207f0b859add54dbafb6125338fc55356cb8b61" upstream="wlan-cmn.driver.lnx.2.0"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0" name="clo/qsdk/wifi/qca-wifi-oss" path="qrdk/wifi/qca-wifi/component_dev" revision="849db81233ca9310e763543364e6e79b832ad822" upstream="win_wlan_host.1.0"/>
+</manifest>
