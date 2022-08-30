@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/boot/u-boot-2016" path="qrdk/boot/u-boot-2016" revision="ece51672dee015ff0fd94877e1efb9e2715c14c5" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge" revision="92aab02c632d5791acedf90c709187af5a4dde70" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qrdk/opensource/hyfi/qca-hyfi-qdisc" revision="846e528e85b46da233a03fc025a24783e2c5a18b" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/kernel/linux-ipq-5.4" path="qrdk/kernel" revision="ae70ce859e3ed9e49b422ff6020b4db68f2666f2" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-cfi" path="qrdk/opensource/qca-nss-cfi" revision="a0239b330846770793aefc3debf4be7edad6ffcd" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-clients" path="qrdk/opensource/qca-nss-clients" revision="2396944e41307a90e9159107fd225e44980a5b2f" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-crypto" path="qrdk/opensource/qca-nss-crypto" revision="2271a3a66f7e8284d42a9e787ddec6f24a1d2e15" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-dp" path="qrdk/opensource/qca-nss-dp" revision="c19feb9106c6103d5cf39a1fac2dc6c443b1eb77" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv" revision="0983221a44ca23978314e77c3885cbbac8a74f9c" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-gmac" path="qrdk/opensource/qca-nss-gmac" revision="171767947467662f2407d0cfff26dfb136c3fb4a" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-macsec" path="qrdk/opensource/qca-nss-macsec" revision="c214cf14cc8e205678c064c23c76360c3cc5c5f1" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/nss-ppe" path="qrdk/opensource/qca-nss-ppe" revision="f3bf0eaf7a91c2a091f6645b06254ba6b66eae0d" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/qca-edma" path="qrdk/opensource/qca-edma" revision="7e47c81b5b1678e921b7f52ddde96ec08ef5edad" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm" revision="dd8a43859e3984e8552125b07b1cbd0d76e9e4c4" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm" revision="bc390e91d7ef9a2e62866a37acd593123cf0387f" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/qca-psdk" path="qrdk/opensource/qca-psdk" revision="402973acc8a17d9b685ed3c3490b7d6289f4798f" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/qca-rfs" path="qrdk/opensource/qca-rfs" revision="75197c386f477c7b3a6f02489d9903a9409fd5cc" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk" revision="f504f4e75c3300e1d2548ca892bdfc6dd273d53b" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/qca-nss-sfe" revision="1cabbf191363e07cc41e0cc83caf973dc7c7b09f" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell" revision="c3ec6282e74dcc94668a4f792a98d2c8f4790469" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq" revision="a710642d93ed167dc160271c4bbe59293bb2e6fd" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking" revision="fe64fc4a6cc073822318a2c2a8eb4cd909c019d7" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss" revision="d97437cdd85d58f52712b87c5a2818877277a344" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages" revision="8ba4ce2aa70a3526c16202d243f8c7433c58781d" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk" revision="4144d01169898f1f204e6fbda88efc6916a5c3db" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi" revision="6055277382c9990d5c3d65c71a10ebec14dd117f" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qyocto/oss/system/yocto/recipes/lte-data-oss" path="qrdk/meta-ipq/recipes-dataoss" revision="07e7f66d90d9568678d23bce39a149a324113895" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/oss/wifi/qca-cnss" path="qrdk/opensource/qca-cnss" revision="1ce1cf60094d435f1f2fefe4b9019695e8c25fbf" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/data-kernel" path="qrdk/common/data-kernel" revision="b8873e6f2450a7ea7407012bd6571f833b3b1cf1"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/dataservices" path="qrdk/common/data-oss" revision="a37d7f6afcca508efc0cae871b36aa97895b1c67"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qrdk/wifi/qca-wifi/cmn_dev/fw_hdr" revision="8f5b3fc8582583ae49d2dd9acf2984d1a80c6d8b" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qrdk/wifi/qca-wifi/cmn_dev" revision="226e9258ba7bebe618b4f197a4f3188aeb9f57cb" upstream="NHSS.RDK.12.1.0.r1"/>
+  <project name="clo/qsdk/platform/vendor/qcom/opensource/datarmnet" path="qrdk/common/datarmnet" revision="63ebcad75b4c416fadd4134ca6bbb57aefbe45f2"/>
+  <project name="clo/qsdk/wifi/qca-wifi-oss" path="qrdk/wifi/qca-wifi/component_dev" revision="2f48da5db65c27a2856af923b3f1a617d6bb05bf" upstream="NHSS.RDK.12.1.0.r1"/>
+</manifest>
