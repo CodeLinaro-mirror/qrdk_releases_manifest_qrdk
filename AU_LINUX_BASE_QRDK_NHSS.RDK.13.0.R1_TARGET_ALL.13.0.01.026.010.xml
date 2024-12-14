@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="hazelnut_qrdk"/>
+  <project dest-branch="refs/heads/win.coretech.3.0.r24" name="clo/qsdk/oss/boot/u-boot" path="qrdk/boot/u-boot" revision="0be23e2430cd9fc7bddaedb7d32976094fba54ff" upstream="refs/heads/win.coretech.3.0.r24"/>
+  <project dest-branch="refs/heads/win.son_easymesh.1.0.r24" name="clo/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge" revision="b063fe951101a5f772752bbb8daa362ff5d12b12" upstream="refs/heads/win.son_easymesh.1.0.r24"/>
+  <project dest-branch="refs/heads/win.linux.6.6.r24" name="clo/qsdk/oss/kernel/linux-ipq-6.6" path="qrdk/kernel" revision="0ff877b5fb20e9e366811fb1bfdcdac6660e6cd2" upstream="refs/heads/win.linux.6.6.r24"/>
+  <project dest-branch="refs/heads/win.linux.6.6.r24" name="clo/qsdk/oss/kernel/linux-ipq-files" path="qrdk/files-6.6" revision="8ccfc1c9d8f957abb7ae069e212ef6ab2a73954f" upstream="refs/heads/win.linux.6.6.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/emesh-sp" path="qrdk/opensource/qca-emesh-sp" revision="279f6dea567009ae932792c2e9fbfbc9e09f218d" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-cfi" path="qrdk/opensource/qca-nss-cfi" revision="6e8f294a298d1ecb745148f552d691f8395363b0" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-crypto" path="qrdk/opensource/qca-nss-crypto" revision="60e27b91f9cdb1d6de38337c03444021ae8c1040" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-dp" path="qrdk/opensource/qca-nss-dp" revision="75722b7e4d57c040e713b7e9db920b701feb034b" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv" revision="d5ee67bd84d1ee7ed81eb6758e62a6db5a0cf4c7" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-dscpstats" path="qrdk/opensource/qca-nss-dscpstats" revision="35f8409213188c5f2d820740b4b74eddf8c7a379" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-eip" path="qrdk/opensource/qca-nss-eip" revision="0867bec0529d79d076caae1de711ebff9945a146" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-macsec" path="qrdk/opensource/qca-nss-macsec" revision="5ed726e451c99981547006094c86d279d056cf73" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-netfn" path="qrdk/opensource/qca-nss-netfn" revision="b60740e68f2d7de01a7339ec3f7f2cb4a00fd80e" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-nsm" path="qrdk/opensource/qca-nss-nsm" revision="e93c574d4276539e558004aa058020434c5d0f93" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-ppe" path="qrdk/opensource/qca-nss-ppe" revision="3d4eecf57560b6c02ce1567ab5995d4a24b42ab5" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-speedtest" path="qrdk/opensource/nss-speedtest" revision="3e5fc34dd0ebd7bff9fc0e8baafc20ccd10d35e2" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/nss-wifi-plugins" path="qrdk/opensource/qca-wifi-plugins" revision="237b5f779ae2c3da619a3380ba069b1199456781" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm" revision="fe5610c025af7b9fed659eac5c5157232a020b89" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm" revision="6eec321bac1217ca8c2872156594f29f65e5f2b4" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/qca-nss-phy" path="qrdk/opensource/qca-nss-phy" revision="a2ab925707e71555858398ac47fc9c4e0303d7e0" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/qca-ovsmgr" path="qrdk/opensource/qca-ovsmgr" revision="6c1fafc4fbdc28474d2199fa2bef6e10c89d2118" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk" revision="b8fbbe2dd3f7a9ad7b2898646372a0235c41ceda" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/qca-nss-sfe" revision="6b4426ae629418cbbc1d4169f111199cdafafbfd" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/nss-userspace" path="qrdk/opensource/qca-nss-userspace-oss" revision="7233e222fa08f7da9a511f798ce153b63ac1d989" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/qca-lacpd" path="qrdk/opensource/qca-lacpd" revision="69b9574a457cdeeadee7c081c3ce053a7c898d6a" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.rsrcmgr.1.0.r24" name="clo/qsdk/oss/qca/src/qca-rsrcmgr/driver" path="qrdk/opensource/qca-rsrcmgr/driver" revision="f0547b1408add888e8a1498cbfa4f145dafa4e17" upstream="refs/heads/win.rsrcmgr.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell" revision="36de0b076ead75c47356f4c2397814788883be02" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.son_easymesh.1.0.r24" name="clo/qsdk/oss/system/openwrt/feeds/hyfi" path="qrdk/common/hyfi/qca-hyfi-init-oss" revision="c3f82e64dd1e9aca7735ceff0038c64eace34af1" upstream="refs/heads/win.son_easymesh.1.0.r24"/>
+  <project dest-branch="refs/heads/win.platform_tools.1.0.r24" name="clo/qsdk/oss/system/openwrt/ipq-scripts" path="qrdk/ipq-scripts" revision="a98c6c2951272ce585286a217bdab4c249736ae8" upstream="refs/heads/win.platform_tools.1.0.r24"/>
+  <project name="clo/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq" revision="2dcfe1296f269a3741ec8eac3cf04df8209acc71" upstream="NHSS.RDK.13.0.r1"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking" revision="a15315a26108c3a58789afd22c0c3e60ec8423f1" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss" revision="6aef8a3ab5eef9d4de73ba35cc504c694f3a8e92" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages" revision="dd33c33896fe2c95018609e4e9910c863a6c6392" upstream="NHSS.RDK.13.0.r1"/>
+  <project dest-branch="refs/heads/win.nss.1.0.r24" name="clo/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk" revision="021d856ac195635f761b8ce98a64fd82f5d17712" upstream="refs/heads/win.nss.1.0.r24"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi" revision="dd32a44e1ec51b16a25d9c92f91a5d5056b9c89d" upstream="NHSS.RDK.13.0.r1"/>
+  <project dest-branch="refs/heads/win.platform_tools.1.0.r24" name="clo/qsdk/oss/system/tools_repo" path="qrdk/common/qca-ramparser" revision="abfced2738c75acd018edb6dd463f52442547a17" upstream="refs/heads/win.platform_tools.1.0.r24"/>
+  <project dest-branch="refs/heads/win.platform_tools.1.0.r24" name="clo/qsdk/oss/system/tools/meta" path="meta-tools-oss" revision="744e4bd2e21ca87d57cee49bd62546960ce75fd3" upstream="refs/heads/win.platform_tools.1.0.r24"/>
+  <project dest-branch="refs/heads/win.son_easymesh.1.0.r24" name="clo/qyocto/oss/system/yocto/recipes/recipes-hyfi" path="qrdk/meta-ipq/recipes-hyfi-oss" revision="90ce23f095625223102c5fd4c8a01c6bf44f7e0b" upstream="refs/heads/win.son_easymesh.1.0.r24"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0.r24" name="clo/qsdk/oss/wifi/qca-cnss" path="qrdk/opensource/qca-cnss" revision="38fdc679ac19749521a00c8cd87f5799d388bb3f" upstream="refs/heads/win_wlan_host.1.0.r24"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0.r24" name="clo/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qrdk/wifi/qca-wifi/cmn_dev/fw_hdr" revision="320df1c0c14fcfb1e0ef612d014d5466c53816a3" upstream="refs/heads/win_wlan_host.1.0.r24"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0.r24" name="clo/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qrdk/wifi/qca-wifi/cmn_dev" revision="ce0d7b5bccb6b07d7303389ef330a9c356ede70e" upstream="refs/heads/win_wlan_host.1.0.r24"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0.r24" name="clo/qsdk/wifi/iw-patches-oss" path="qrdk/meta-ipq/recipes-wifi/wlan-iw" revision="c47cc62a11cdaed3fff6720b0773723836cb5f97" upstream="refs/heads/win_wlan_host.1.0.r24"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0.r24" name="clo/qsdk/wifi/qca-telemetry-agent-oss" path="qrdk/wifi/qca-wifi/telemetry_agent" revision="dd2bf482e4b0ed9040d13ac6bcd890ea869d7c78" upstream="refs/heads/win_wlan_host.1.0.r24"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0.r24" name="clo/qsdk/wifi/qca-wifi-oss" path="qrdk/wifi/qca-wifi/component_dev" revision="4f64a2fb7187f4978a7baa0482260389f2a2ce0f" upstream="refs/heads/win_wlan_host.1.0.r24"/>
+</manifest>
