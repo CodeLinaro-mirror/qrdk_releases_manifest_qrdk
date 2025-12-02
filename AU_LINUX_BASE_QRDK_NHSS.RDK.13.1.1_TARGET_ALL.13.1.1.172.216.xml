@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="NHSS.RDK.13.1.1"/>
+  <project name="clo/qsdk/oss/boot/u-boot" path="qrdk/boot/u-boot" revision="8953469f91044f46864b3a5905cbf392872b80da" upstream="refs/heads/win.coretech.3.0.r30" dest-branch="refs/heads/win.coretech.3.0.r30"/>
+  <project name="clo/qsdk/oss/boot/u-boot-2025" path="qrdk/boot/u-boot-2025" revision="efcd999bea33e5f155c7ef82a365dee6904f35a8" upstream="refs/heads/win.uboot.2025.00.r30" dest-branch="refs/heads/win.uboot.2025.00.r30"/>
+  <project name="clo/qsdk/oss/boot/uboot-ipq-files" path="qrdk/boot/files" revision="d98e1f206e9f1444251abe39ad2bfb7d8c3a60f0" upstream="refs/heads/win.uboot.2025.00.r30" dest-branch="refs/heads/win.uboot.2025.00.r30"/>
+  <project name="clo/qsdk/oss/boot/uboot-ipq-patches" path="qrdk/boot/patches" revision="b6ac819980021b8309d3b5a5daf57fa8ab2c7d16" upstream="refs/heads/win.uboot.2025.00.r30" dest-branch="refs/heads/win.uboot.2025.00.r30"/>
+  <project name="clo/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge" revision="64bde36c24aaeeb4d675ffbec6b4bc5f3f39d5a2" upstream="refs/heads/win.son_easymesh.1.1" dest-branch="refs/heads/win.son_easymesh.1.1"/>
+  <project name="clo/qyocto/oss/ipq/rdk-extender" path="qrdk/rdkb/devices/ipq/rdk-extender" revision="883105bc7ccd87cea20773da1ac3dabbf54642b5" upstream="NHSS.RDK.13.1.1"/>
+  <project name="clo/qsdk/oss/kernel/linux-ipq-6.6" path="qrdk/kernel" revision="17953c5d69c1437d5c8f978b696373023e053bc8" upstream="refs/heads/win.linux.6.6.r30.1" dest-branch="refs/heads/win.linux.6.6.r30.1"/>
+  <project name="clo/qsdk/oss/kernel/linux-ipq-files" path="qrdk/files-6.6" revision="22bad0acce01f7a9719e26ad1805c2fae2b8d17a" upstream="refs/heads/win.linux.6.6.r30.1" dest-branch="refs/heads/win.linux.6.6.r30.1"/>
+  <project name="clo/qsdk/oss/lklm/emesh-sp" path="qrdk/opensource/qca-emesh-sp" revision="9629dc039a73b3f1b22ff71402aaddcb4fcd578b" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-cfi" path="qrdk/opensource/qca-nss-cfi" revision="ff11daede9ed465cf11f764f68e11ad2dc2e6699" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-crypto" path="qrdk/opensource/qca-nss-crypto" revision="60e27b91f9cdb1d6de38337c03444021ae8c1040" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-dp" path="qrdk/opensource/qca-nss-dp" revision="f6aa8d46d67e1daa2999147cd0da7cc41e013e26" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv" revision="d5ee67bd84d1ee7ed81eb6758e62a6db5a0cf4c7" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-dscpstats" path="qrdk/opensource/qca-nss-dscpstats" revision="35f8409213188c5f2d820740b4b74eddf8c7a379" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-eip" path="qrdk/opensource/qca-nss-eip" revision="c55a67fda977272f7de37763218be2e1af4321b1" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-macsec" path="qrdk/opensource/qca-nss-macsec" revision="5ed726e451c99981547006094c86d279d056cf73" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-netfn" path="qrdk/opensource/qca-nss-netfn" revision="1499f2ac2febb2cbe99afe4f87aad8f98fb3e0ce" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-nsm" path="qrdk/opensource/qca-nss-nsm" revision="ae9792fc4ce853c727a9be502d2d1fab3a3ad7da" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-ppe" path="qrdk/opensource/qca-nss-ppe" revision="8a89f74a8941e461dba6891bea4ea5ab4b5a8030" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-speedtest" path="qrdk/opensource/nss-speedtest" revision="fa1608a170f5b587a5dae2912d31614092691d21" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/nss-wifi-plugins" path="qrdk/opensource/qca-wifi-plugins" revision="237b5f779ae2c3da619a3380ba069b1199456781" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm" revision="da120b15e7fe1168f4b42fca09642a542d3a1e76" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm" revision="bc7d04705305eec0fa804ea36958791515ad732a" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-phy" path="qrdk/opensource/qca-nss-phy" revision="26e8d9dfe7f188fec13a3a38f9d1241f989474a3" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/qca-ovsmgr" path="qrdk/opensource/qca-ovsmgr" revision="6c1fafc4fbdc28474d2199fa2bef6e10c89d2118" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk" revision="d9a196497ecee2530722d906e0efe1b7408b6ef6" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/qca-nss-sfe" revision="12175f95378200ca1498d43c23a42aae83f56db3" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/nss-userspace" path="qrdk/opensource/qca-nss-userspace-oss" revision="e1883f14c57a83947ac15a0638cd8694993943ff" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/qca-lacpd" path="qrdk/opensource/qca-lacpd" revision="69b9574a457cdeeadee7c081c3ce053a7c898d6a" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell" revision="dc5669663ca052593cdc3296eaf1a647508b1cf5" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qsdk/oss/system/openwrt/feeds/hyfi" path="qrdk/common/hyfi/qca-hyfi-init-oss" revision="af2a3b5f96424fe8b960ce61a32e6aa52723e29f" upstream="refs/heads/win.son_easymesh.1.1" dest-branch="refs/heads/win.son_easymesh.1.1"/>
+  <project name="clo/qsdk/oss/system/openwrt/ipq-scripts" path="qrdk/ipq-scripts" revision="5b5a0d0a9443f51191f922617c1f5e6bd1190700" upstream="refs/heads/win.platform_tools.1.0.r30" dest-branch="refs/heads/win.platform_tools.1.0.r30"/>
+  <project name="clo/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq" revision="18f83262288c4c615ba7d3d66c08755deb3c4f46" upstream="NHSS.RDK.13.1.1"/>
+  <project name="clo/qyocto/oss/system/recipes/meta-lgi-ipq" path="qrdk/meta-lgi-ipq" revision="6c7c37546ce139108c524fff5929237bff497955" upstream="NHSS.RDK.13.1.1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking" revision="04748364d25c98a60af68bfcbb8fbfe2ec59eed9" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss" revision="3cb7640009c77141a2066253d001fff75688bd6c" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages" revision="6461e929584ffc2e12bf2c3477f1e4d5554f7901" upstream="NHSS.RDK.13.1.1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk" revision="ca97cd423aad1add82f0627029b5be9cf9530a29" upstream="refs/heads/win.nss.1.1" dest-branch="refs/heads/win.nss.1.1"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi" revision="bffa1da6d1ec7df096a5b79a2e5af2a2374f8b85" upstream="NHSS.RDK.13.1.1"/>
+  <project name="clo/qsdk/oss/system/tools_repo" path="qrdk/common/qca-ramparser" revision="b9f28d6a249d980ff490c1bffad6e203d61a2764" upstream="refs/heads/win.platform_tools.1.0.r30" dest-branch="refs/heads/win.platform_tools.1.0.r30"/>
+  <project name="clo/qsdk/oss/system/tools/meta" path="meta-tools-oss" revision="7c4c0621759d06c7c2d7f21087ac558de749b9f2" upstream="refs/heads/win.platform_tools.1.0.r30" dest-branch="refs/heads/win.platform_tools.1.0.r30"/>
+  <project name="clo/qyocto/oss/system/yocto/recipes/recipes-hyfi" path="qrdk/meta-ipq/recipes-hyfi-oss" revision="d956112d4aef4dec8f936c9b3358978b6d2edcec" upstream="refs/heads/win.son_easymesh.1.1" dest-branch="refs/heads/win.son_easymesh.1.1"/>
+  <project name="clo/qsdk/oss/wifi/qca-cnss" path="qrdk/opensource/qca-cnss" revision="6c6b7f23e3f94fcd98b916e8a9caa582ba89e7da" upstream="refs/heads/win_wlan_host.1.1" dest-branch="refs/heads/win_wlan_host.1.1"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qrdk/wifi/qca-wifi/cmn_dev/fw_hdr" revision="2b6d8362bd5ce188266a74d93c4b7dcb1c13f7df" upstream="refs/heads/win_wlan_host.1.1" dest-branch="refs/heads/win_wlan_host.1.1"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qrdk/wifi/qca-wifi/cmn_dev" revision="64335958c58cc23a17f278e576cfa740005055a6" upstream="refs/heads/win_wlan_host.1.1" dest-branch="refs/heads/win_wlan_host.1.1"/>
+  <project name="clo/qsdk/wifi/iw-patches-oss" path="qrdk/meta-ipq/recipes-wifi/wlan-iw" revision="350338be90a010cb59d3451dd21425be405172a0" upstream="refs/heads/win_wlan_host.1.1" dest-branch="refs/heads/win_wlan_host.1.1"/>
+  <project name="clo/qsdk/wifi/qca-telemetry-agent-oss" path="qrdk/wifi/qca-wifi/telemetry_agent" revision="fbc04cf668b4f7c211c4cdc66f71c8a3ae830033" upstream="refs/heads/win_wlan_host.1.1" dest-branch="refs/heads/win_wlan_host.1.1"/>
+  <project name="clo/qsdk/wifi/qca-wifi-oss" path="qrdk/wifi/qca-wifi/component_dev" revision="594ab321380d981a15433e43748e0d2e9ffe4cca" upstream="refs/heads/win_wlan_host.1.1" dest-branch="refs/heads/win_wlan_host.1.1"/>
+</manifest>
