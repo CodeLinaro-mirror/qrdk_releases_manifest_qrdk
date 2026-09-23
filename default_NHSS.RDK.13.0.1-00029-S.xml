@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la/" review="null"/>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="NHSS.RDK.13.0.1"/>
+  <project name="clo/qsdk/oss/boot/u-boot" path="qrdk/boot/u-boot"/>
+  <project name="clo/qsdk/oss/hyfi/qca-hyfi-bridge" path="qrdk/opensource/hyfi/qca-hyfi-bridge"/>
+  <project name="clo/qyocto/oss/ipq/rdk-extender" path="qrdk/rdkb/devices/ipq/rdk-extender"/>
+  <project name="clo/qsdk/oss/kernel/linux-ipq-6.6" path="qrdk/kernel"/>
+  <project name="clo/qsdk/oss/kernel/linux-ipq-files" path="qrdk/files-6.6"/>
+  <project name="clo/qsdk/oss/lklm/emesh-sp" path="qrdk/opensource/qca-emesh-sp"/>
+  <project name="clo/qsdk/oss/lklm/nss-cfi" path="qrdk/opensource/qca-nss-cfi"/>
+  <project name="clo/qsdk/oss/lklm/nss-crypto" path="qrdk/opensource/qca-nss-crypto"/>
+  <project name="clo/qsdk/oss/lklm/nss-dp" path="qrdk/opensource/qca-nss-dp"/>
+  <project name="clo/qsdk/oss/lklm/nss-drv" path="qrdk/opensource/qca-nss-drv"/>
+  <project name="clo/qsdk/oss/lklm/nss-dscpstats" path="qrdk/opensource/qca-nss-dscpstats"/>
+  <project name="clo/qsdk/oss/lklm/nss-eip" path="qrdk/opensource/qca-nss-eip"/>
+  <project name="clo/qsdk/oss/lklm/nss-macsec" path="qrdk/opensource/qca-nss-macsec"/>
+  <project name="clo/qsdk/oss/lklm/nss-netfn" path="qrdk/opensource/qca-nss-netfn"/>
+  <project name="clo/qsdk/oss/lklm/nss-nsm" path="qrdk/opensource/qca-nss-nsm"/>
+  <project name="clo/qsdk/oss/lklm/nss-ppe" path="qrdk/opensource/qca-nss-ppe"/>
+  <project name="clo/qsdk/oss/lklm/nss-speedtest" path="qrdk/opensource/nss-speedtest"/>
+  <project name="clo/qsdk/oss/lklm/nss-wifi-plugins" path="qrdk/opensource/qca-wifi-plugins"/>
+  <project name="clo/qsdk/oss/lklm/qca-mcs" path="qrdk/opensource/qca-mcs-lkm"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-ecm" path="qrdk/opensource/qca-nss-ecm"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-phy" path="qrdk/opensource/qca-nss-phy"/>
+  <project name="clo/qsdk/oss/lklm/qca-ovsmgr" path="qrdk/opensource/qca-ovsmgr"/>
+  <project name="clo/qsdk/oss/lklm/qca-ssdk" path="qrdk/opensource/qca-ssdk"/>
+  <project name="clo/qsdk/oss/lklm/shortcut-fe" path="qrdk/opensource/qca-nss-sfe"/>
+  <project name="clo/qsdk/oss/nss-userspace" path="qrdk/opensource/qca-nss-userspace-oss"/>
+  <project name="clo/qsdk/oss/qca-lacpd" path="qrdk/opensource/qca-lacpd"/>
+  <project name="clo/qsdk/oss/qca/src/qca-rsrcmgr/driver" path="qrdk/opensource/qca-rsrcmgr/driver"/>
+  <project name="clo/qsdk/oss/ssdk-shell" path="qrdk/opensource/qca-ssdk-shell"/>
+  <project name="clo/qsdk/oss/system/openwrt/feeds/hyfi" path="qrdk/common/hyfi/qca-hyfi-init-oss"/>
+  <project name="clo/qsdk/oss/system/openwrt/ipq-scripts" path="qrdk/ipq-scripts"/>
+  <project name="clo/qyocto/oss/system/recipes/meta-ipq" path="qrdk/meta-ipq"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-networking" path="qrdk/meta-ipq/recipes-networking"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-nss" path="qrdk/meta-ipq/recipes-nss"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-packages" path="qrdk/meta-ipq/recipes-packages"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-ssdk" path="qrdk/meta-ipq/recipes-ssdk"/>
+  <project name="clo/qyocto/oss/system/recipes/recipes-wifi" path="qrdk/meta-ipq/recipes-wifi"/>
+  <project name="clo/qsdk/oss/system/tools_repo" path="qrdk/common/qca-ramparser"/>
+  <project name="clo/qsdk/oss/system/tools/meta" path="meta-tools-oss"/>
+  <project name="clo/qyocto/oss/system/yocto/recipes/recipes-hyfi" path="qrdk/meta-ipq/recipes-hyfi-oss"/>
+  <project name="clo/qsdk/oss/wifi/qca-cnss" path="qrdk/opensource/qca-cnss"/>
+  <project name="clo/la/platform/vendor/qcom-opensource/wlan/fw-api" path="qrdk/wifi/qca-congo/fw-api" revision="5b2a7a991f71d38ab9bd1f3481b6558e9dd28eaa" upstream="refs/heads/wlan-api.lnx.1.0" dest-branch="refs/heads/wlan-api.lnx.1.0"/>
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api-win" path="qrdk/wifi/qca-wifi/cmn_dev/fw_hdr" remote="clo-la" revision="132746d281cace6916fea166d88ee4981d077bf5"/>
+  <project name="clo/la/platform/vendor/qcom-opensource/wlan/platform" path="qrdk/wifi/qca-congo/platform" revision="4a2679f1b1e311d9afac49ba3c74cddbdee082e0" upstream="refs/heads/wlan-platform.lnx.2.0.c13" dest-branch="refs/heads/wlan-platform.lnx.2.0.c13"/>
+  <project name="clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qrdk/wifi/qca-congo/qca-wifi-host-cmn" revision="e92b3896fefdef18cd607ff5938061a0a9c7a983" upstream="refs/heads/wlan-cmn.driver.lnx.2.0" dest-branch="refs/heads/wlan-cmn.driver.lnx.2.0"/>
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn-win" path="qrdk/wifi/qca-wifi/cmn_dev" remote="clo-la" revision="91cd7d568f32448617c3d85649c57f8e9f4e8948"/>
+  <project name="clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="qrdk/wifi/qca-congo/qcacld-3.0" revision="7ece243a21be93eb2f5f89636ce8348b849f2a6c" upstream="refs/heads/wlan-cld3.driver.lnx.2.0" dest-branch="refs/heads/wlan-cld3.driver.lnx.2.0"/>
+  <project name="clo/qsdk/wifi/iw-patches-oss" path="qrdk/meta-ipq/recipes-wifi/wlan-iw"/>
+  <project name="clo/qsdk/wifi/qca-telemetry-agent-oss" path="qrdk/wifi/qca-wifi/telemetry_agent"/>
+  <project name="clo/qsdk/wifi/qca-wifi-oss" path="qrdk/wifi/qca-wifi/component_dev"/>
+</manifest>
